@@ -1,0 +1,96 @@
+.header-for-car-detail{
+  min-height:20vh;
+  width:100%; 
+  background-image:linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  position:relative;
+
+}
+
+
+
+.car-gallery-SUV{
+  width:100%;
+  margin:auto;
+  text-align:center;
+  padding-top:50px;
+}
+.car-gallery-SUV h1{
+  text-align: left;
+  padding: 10px;
+  font-size: 600;
+}
+/* Add this to your car-detail.css file or your main CSS file */
+.car-col img {
+  animation: rotateImage 4s linear infinite;
+  margin-right:40px;
+}
+.car-col{
+  flex-basis:32%;
+  border-radius:10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.car-cols h1{
+  margin-left:100px;
+
+}
+
+/* Add this to your car-detail.css file or your main CSS file */
+
+.rows{
+  margin-top:5%;
+  display:flex;
+  
+  
+}
+
+.spec{
+    margin-top:5px;
+    margin-left:150px;
+    display:flex;
+  
+  
+}
+.spec p{
+  margin-top:10px;
+}
+.spec img{
+  height:50px;
+  width:50px;
+  margin-right:20px;
+}
+/* Add this to your car-detail.css file or your main CSS file */
+.car-cols {
+  
+  animation: slideIn 2s ease;
+}
+
+.spec {
+  animation: fadeIn 6s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* Add this to your car-gallery.css file or your main CSS file */

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car selling website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="Car-Gallery.css">
+    <link rel="stylesheet" href="about.css">
+    
+
+    <link rel="preconnect " href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <section class="header-contact">
+    <nav>
+      <a href="index.html"><img src="images/rent-icon2.png"></a>
+      <div class ="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul> 
+          <li> <a href="index.html" >HOME</a></li>
+          <li> <a href="Car-Gallery.html">CAR  GALLERY</a></li>
+          <li> <a href="" >FEATURED</a></li>
+          <li> <a href="contact.html" >CONTACT</a></li>
+          <li> <a href="about.html" >ABOUT</a></li>
+  
+        </ul>
+      </div>
+    
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+ 
+    </nav>
+    <div class="text-box"> 
+      <h1> About </h1> 
+    </div>
+
+    </section>
+    
+    <section >
+    <div class="row">
+      <div class="about-cols">
+        
+        
+        <h1>We are the Best car dealer Company </h1>
+    <p>We are a car selling company dedicated to providing high-quality vehicles, exceptional service, and <br>transparent dealings. Our knowledgeable team is committed to helping you find the perfect vehicle. We offer financing options,<br>  trade-in evaluations, and after-sales services to ensure a seamless car-buying experience.</p>
+        
+      </div>
+   
+    <div class="about-cols">
+      <img src="images/main.png">
+      
+
+      
+      </div>
+      
+    </div>
+
+  </section>
+  
+
+
+
+
+
+
+  <script>
+    var navlinks=document.getElementById("navlinks")
+
+    function showMenu(){
+
+      navlinks.style.right="0";
+    }
+    function hideMenu(){
+      navlinks.style.right="-200px";
+     }
+  </script>
+
+ 
+
+</body>
+</html>

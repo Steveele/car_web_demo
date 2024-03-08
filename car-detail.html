@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car selling website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="car-detail.css">
+    <link rel="stylesheet" href="Car-Gallery.css">
+    <link rel="preconnect " href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <section class="header-for-car-detail">
+    <nav>
+      <a href="index.html"><img src="images/rent-icon2.png"></a>
+      <div class ="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul> 
+          <li> <a href="index.html" >HOME</a></li>
+          <li> <a href="Car-Gallery.html">CAR  GALLERY</a></li>
+          <li> <a href="" >FEATURED</a></li>
+          <li> <a href="contact.html" >CONTACT</a></li>
+          <li> <a href="about.html" >ABOUT</a></li>
+  
+        </ul>
+      </div>
+    
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+ 
+    </nav>
+
+      
+      
+   
+  </div>
+  </section>
+
+  <!--featured cars -->
+
+
+  <section class="car-gallery-SUV">
+    <h1> Marchedez Benz</h1>
+    
+     <div class="rows">
+        <div class="car-cols">
+          <img src="images/car 1.jpg">
+          <h3>Marchedez Benz </h3>
+          
+          
+          </div>
+        
+        <div class="car-cols">
+          <h1>Specification</h1>
+          <div class="spec typing-text">
+            <img src="images/icons/Electric.jpeg">
+            <p>Full Electric</p>
+          </div>
+          <div class="spec">
+            <img src="images/icons/battery.png">
+            <p>on full charge up to 350km</p>
+          </div>
+          <div class="spec">
+            <img src="images/icons/horse power.png">
+            <p>2000 Horse power</p>
+          </div>
+          <div class="spec">
+            <img src="images/icons/aceleration.png">
+            <p> 0-100 km/h time</p>
+          </div>
+        </div>
+        </div>
+        <div class="row">
+          <div class="car-col">
+            <img src="images/car 1.jpg">
+            <h3>Marchedez Benz </h3>
+            <p>Brand New , 2000 horse power , Full Electric. on full charge can go upto 350km</p>
+            <div class="f-layer">
+              <h3>Machedes BENZ</h3>
+            </div>
+          </div>
+        <div class="car-col">
+          <img src="images/car 5.jpg">
+          <h3>Marchedez Benz </h3>
+          <p>Brand New , 2000 horse power , Full Electric. on full charge can go upto 350km</p>
+          <div class="f-layer">
+            <h3>SUV</h3>
+          </div>
+        </div>
+        <div class="car-col">
+          <img src="images/car 7.png">
+          <h3>Marchedez Benz </h3>
+          <p>Brand New , 2000 horse power , Full Electric. on full charge can go upto 350km</p>
+          <div class="f-layer">
+            <h3>Tesla</h3>
+          </div>
+        </div>
+  
+      </div>
+      
+
+
+ 
+  </section>
+
+
+<!-------------Footer------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are a car selling company dedicated to providing high-quality vehicles, exceptional service, andtransparent dealings.<br>  Our knowledgeable team is committed to helping you find the perfect vehicle. We offer financing options,<br>  trade-in evaluations, and after-sales services to ensure a seamless car-buying experience.</p>
+
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+
+    </div>
+
+</section>
+
+
+
+  <script>
+    var navlinks=document.getElementById("navlinks")
+
+    function showMenu(){
+
+      navlinks.style.right="0";
+    }
+    function hideMenu(){
+      navlinks.style.right="-200px";
+     }
+
+     // Add this to your script tag or external JavaScript file
+
+
+  </script>
+
+ 
+
+</body>
+</html>

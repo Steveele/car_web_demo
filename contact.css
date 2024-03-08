@@ -1,0 +1,79 @@
+.header-contact{
+  min-height:60vh;
+  width:100%; 
+  background-image:linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  position:relative;
+
+}
+
+.location{
+  width:80%;
+  margin:auto;
+  padding: 80px 0;
+}
+.location iframe{
+  width: 100%;
+
+
+}
+
+.contact-us{
+  width: 80%;
+  margin:auto;
+}
+.contact-col{
+  flex-basis:48%;
+  margin-bottom: 30px;  
+}
+
+.contact-col div{
+  display:flex;
+  align-items:center;
+  margin-bottom:40px;
+}
+.contact-col div .fa{
+  font-size: 28px;
+  color:#f44336;
+  margin:10px;
+  margin-left:30px;
+
+}
+.contact-col div p{
+  padding:0;
+
+}
+.contact-col div h5{
+  font-size:20px;
+  margin-bottom: 5px;
+  color:#555;
+  font-weight: 400;
+}
+.contact-col input, .contact-col textarea{
+  width:100%;
+  padding:15px;
+  margin-top:17px;
+  outline:none;
+  border: 1px solid #ccc;
+  box-sizing:border-box;
+
+}
+.red-btn{
+  display:inline-block;
+  text-decoration: none;
+  border: 1px solid #bc0909;
+  padding : 12px 34px;
+  color: #160303;
+  font-size:13px;
+  background:transparent;
+  position: relative;
+  margin:20px;
+}
+.red-btn:hover{
+  border:1px solid #2418d6;
+  background:#2418d6;
+  color:#fff;
+  transition:1s;
+}
+ 

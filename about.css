@@ -1,0 +1,18 @@
+.row-about{
+  margin-top:8%;
+  display:flex;
+  margin-right:150px;
+}
+.about-cols{
+  flex-basis:48%;
+  padding:30px 2px;
+
+  
+}
+.about-cols img{
+  width:100%;
+}
+.about-cols h1{
+  font-size: 600;
+  width: 90%;
+}

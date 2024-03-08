@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car selling website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect " href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="images/rent-icon2.png"></a>
+      <div class ="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul> 
+        
+          <li> <a href="index.html" >HOME</a></li>
+          <li> <a href="Car-Gallery.html">CAR  GALLERY</a></li>
+          <li> <a href="" >FEATURED</a></li>
+          <li> <a href="contact.html" >CONTACT</a></li>
+          <li> <a href="about.html" >ABOUT</a></li>
+        </ul>
+      </div>
+    
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+ 
+    </nav>
+<div class="text-box"> 
+      <h1> Auto Tech Solutions </h1>
+      <p> Welcome to our Auto Tech car selling and display website! Whether you're in the market for<br> an Electric car , SUV , ID6 or others we got you coverd.  </p>
+      <a href="Car-Gallery.html" class="visit-us-btn red-btn"> Visit Us To know More</a>
+   
+  </div>
+
+
+  </section>
+<!-------car gallery -->
+
+  <section class="car-gallery">
+    <h1> Available cars for sale</h1>'
+     <div class="row">
+      <div class="car-col">
+        <img src="images/car 1.jpg">
+        <div class="layer">
+          <h3>Machedes BENZ</h3>
+        </div>
+      </div>
+      <div class="car-col">
+        <img src="images/car 5.jpg">
+        <div class="layer">
+          <h3>SUV</h3>
+        </div>
+      </div>
+      <div class="car-col">
+        <img src="images/car 7.png">
+        <div class="layer">
+          <h3>Tesla</h3>
+        </div>
+      </div>
+
+    </div>
+
+
+ 
+  </section>
+
+
+  <!--featured cars -->
+
+
+  <section class="car-gallery">
+    <h1> Featured Cars</h1>
+    <p> You can find the most recent and most sold cars here</p>
+     <div class="row">
+        <div class="car-col">
+          <img src="images/car 1.jpg">
+          <h3>Marchedez Benz </h3>
+          <p>Brand New , 2000 horse power , Full Electric. on full charge can go upto 350km</p>
+          <div class="f-layer">
+            <h3>Machedes BENZ</h3>
+          </div>
+        </div>
+      <div class="car-col">
+        <img src="images/bently.jpeg">
+        <h3>Marchedez Benz </h3>
+        <p>Brand New , 2000 horse power , Full Electric. on full charge can go upto 350km</p>
+        <div class="f-layer">
+          <h3>SUV</h3>
+        </div>
+      </div>
+      <div class="car-col">
+        <img src="images/toyo.jpg">
+        <h3>Marchedez Benz </h3>
+        <p>Brand New , 2000 horse power , Full Electric. on full charge can go upto 350km</p>
+        <div class="f-layer">
+          <h3>Tesla</h3>
+        </div>
+      </div>
+
+    </div>
+
+
+ 
+  </section>
+<!--Contact   -->
+<section class="cta">
+  <h1> Discover your favorite car<br> We will make sure you enjoy the experiance  </h1>
+  <a href="contact.html"class="visit-us-btn">Contact Us  </a>  
+
+
+</section>
+
+<!-------------Footer------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are a car selling company dedicated to providing high-quality vehicles, exceptional service, andtransparent dealings.<br>  Our knowledgeable team is committed to helping you find the perfect vehicle. We offer financing options,<br>  trade-in evaluations, and after-sales services to ensure a seamless car-buying experience.</p>
+
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+
+    </div>
+
+</section>
+
+
+
+  <script>
+    var navlinks=document.getElementById("navlinks")
+
+    function showMenu(){
+
+      navlinks.style.right="0";
+    }
+    function hideMenu(){
+      navlinks.style.right="-200px";
+     }
+  </script>
+
+ 
+
+</body>
+</html>
